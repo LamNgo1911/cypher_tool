@@ -1,4 +1,4 @@
-package cyphertool
+package janry
 
 func encrypt_rot13(s string) string {
 	result := ""
