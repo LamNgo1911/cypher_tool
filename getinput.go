@@ -66,9 +66,9 @@ func getInput() (toEncrypt bool, encoding string, message string) {
 		if(message == ""){
 			operationType := ""
 			if toEncrypt{
-				operationType = "Encrypt\n"
+				operationType = "encrypt\n"
 			} else{
-				operationType = "Decrypt\n"
+				operationType = "decrypt\n"
 			}
 			fmt.Println("Please add the message you would like to " + operationType)
 		} else{

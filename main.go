@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import "strings"
 // import "strconv"
 
 
@@ -28,9 +29,9 @@ func main (){
 	}	
 
 	if(toEncrypt){
-		fmt.Printf("\nEncrypted message using %s\n", encoding)
+		fmt.Printf("\nEncrypted message using %s\n", strings.ToLowerCase(encoding))
 	}else{
-		fmt.Printf("\nDecrypted message using %s\n", encoding)
+		fmt.Printf("\nDecrypted message using %s\n", strings.ToLowerCase(encoding))
 	}
 
 	fmt.Println(result)
